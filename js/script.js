@@ -29,11 +29,15 @@ $(document).ready(() => {
 
 window.extAsyncInit = function () {
 	alert("Loaded MSG SDK");
-};
 
-MessengerExtensions.getUserID(function success(uids) {
+	MessengerExtensions.getUserID(function success(uids) {
 	var psid = uids.psid; alert(psid);
 }, function error(err) {
 	alert("Messenger Extension Error: " + err);
 });
+};
 
+
+var defaultPrevent=function(e){e.preventDefault();}
+elem.addEventListener("touchstart", defaultPrevent);
+elem.addEventListener("touchmove" , defaultPrevent);
