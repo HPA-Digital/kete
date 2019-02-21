@@ -28,12 +28,12 @@ $(document).ready(() => {
 	console.log('Text', default_text);
 	$('#header').text(default_text);
 
-	let hi = (function() {
-		alert('foo');
-	  })();
 
-	hi();
 })
+
+window.extAsyncInit = function() {
+	$('#header').text('Loaded');
+  };
 
 
 
