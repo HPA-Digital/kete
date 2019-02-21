@@ -24,6 +24,16 @@
 
 <body>
 
+	<script>
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) { return; }
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/messenger.Extensions.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'Messenger'));
+	</script>
+
 	<div id="container">
 		<form>
 			<h1 id="header"> Test</h1>
@@ -31,16 +41,16 @@
 				<textarea id="rant" class="scroller" placeholder="How has your day been?"></textarea>
 			</div>
 			<div class="row full-width">
-				<input type="button" value="Ignite" onClick="test()" id="submit"/>
+				<input type="button" value="Ignite" onClick="test()" id="submit" />
 			</div>
 
 		</form>
 	</div>
 	<div id="fire" class="bottom">
-			<img class="fire" src="./img/fire.png">
-			<div class="fire">
+		<img class="fire" src="./img/fire.png">
+		<div class="fire">
 
-			</div>
+		</div>
 	</div>
 
 
