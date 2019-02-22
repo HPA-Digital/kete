@@ -3,7 +3,6 @@ function test() {
 	$('#fire').addClass('top');
 
 	setTimeout(() => {
-		alert("clsoed");
 		MessengerExtensions.requestCloseBrowser(function success() {
 			// webview closed
 		}, function error(err) {
