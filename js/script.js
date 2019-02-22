@@ -12,11 +12,16 @@ function test() {
 
 	$('#fire').addClass('top');
 
-	MessengerExtensions.requestCloseBrowser(function success() {
-		// webview closed
-	}, function error(err) {
-		console.error(err);
-	});
+
+
+	setTimeout(() => {
+		MessengerExtensions.requestCloseBrowser(function success() {
+			// webview closed
+		}, function error(err) {
+			console.error(err);
+		});
+	}, 2000)
+
 
 }
 
@@ -27,14 +32,14 @@ $(document).ready(() => {
 	$('#header').text(default_text);
 })
 
-window.extAsyncInit = function () {
-	alert("Loaded MSG SDK");
+// window.extAsyncInit = function () {
+// 	alert("Loaded MSG SDK");
 
-	MessengerExtensions.getUserID(function success(uids) {
-	var psid = uids.psid; alert(psid);
-}, function error(err) {
-	alert("Messenger Extension Error: " + err);
-});
+// 	MessengerExtensions.getUserID(function success(uids) {
+// 	var psid = uids.psid; alert(psid);
+// }, function error(err) {
+// 	alert("Messenger Extension Error: " + err);
+// });
 };
 
 
