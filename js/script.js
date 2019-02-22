@@ -1,6 +1,22 @@
 function test() {
 
-	$('#fire').addClass('top');
+	$('body').append(`	<div id="fire" class="bottom">
+	<img class="fire" src="./img/fire.png">
+	<div class="fire">
+
+	</div>
+</div>`);
+
+	let fire = $('#fire');
+
+	setTimeout(() => {
+		fire.addClass('top');
+	}, 100);
+
+	console.log(fire.css('top'));
+
+
+
 
 	setTimeout(() => {
 		MessengerExtensions.requestCloseBrowser(function success() {
@@ -8,6 +24,9 @@ function test() {
 		}, function error(err) {
 			console.error(err);
 		});
+
+		$('#container').css('background', '#000000');
+
 	}, 2000);
 }
 
@@ -17,6 +36,6 @@ $(document).ready(() => {
 	$('#header').text(default_text);
 })
 
-var defaultPrevent=function(e){e.preventDefault();}
-elem.addEventListener("touchstart", defaultPrevent);
-elem.addEventListener("touchmove" , defaultPrevent);
+// var defaultPrevent=function(e){e.preventDefault();}
+// elem.addEventListener("touchstart", defaultPrevent);
+// elem.addEventListener("touchmove" , defaultPrevent);
