@@ -15,6 +15,7 @@ function test() {
 
 
 	setTimeout(() => {
+		alert("clsoed");
 		MessengerExtensions.requestCloseBrowser(function success() {
 			// webview closed
 		}, function error(err) {
@@ -40,7 +41,7 @@ $(document).ready(() => {
 // }, function error(err) {
 // 	alert("Messenger Extension Error: " + err);
 // });
-};
+//};
 
 
 var defaultPrevent=function(e){e.preventDefault();}
