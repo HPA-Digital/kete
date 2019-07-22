@@ -1,0 +1,61 @@
+<html>
+
+<head>
+	<title>
+		Test Rant
+	</title>
+
+	<meta charset="UTF-8" />
+
+	<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+
+	<link href="https://fonts.googleapis.com/css?family=Felipa|Laila" rel="stylesheet">
+
+	<link rel="stylesheet" href="./css/magic.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/scroller.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+	<script src="./js/script.js"></script>
+	<!-- MESSENGER EXTENSIONS -->
+	<script>
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {
+				return;
+			}
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "https://connect.facebook.net/en_US/messenger.Extensions.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'Messenger'));
+	</script>
+
+	<!--CONTENT-->
+
+	<div id="container">
+
+		<form>
+			<h1 id="header"> Test</h1>
+			<div class="row full-width">
+				<textarea id="rant" class="scroller" placeholder="How has your day been?"></textarea>
+			</div>
+			<div class="row full-width">
+				<input type="button" value="Ignite" onClick="test()" id="submit" />
+			</div>
+		</form>
+	</div>
+
+	<div class="overlay">
+		<img src='./img/flames.gif' class="flame">
+	</div>
+</body>
+
+</html>
