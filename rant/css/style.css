@@ -91,3 +91,42 @@ body {
 	overflow: hidden;
 	background: black;
 }
+
+#test {
+
+	flex: 1;
+	background: #eabfcb;
+	height: 100vh;
+	width: 100vw;
+	padding: 1% 2% 0px 2%;
+
+	position: absolute;
+
+	z-index: 1000;
+
+	background-image: url('./img/flames.gif')
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+.overlay.active {
+
+	background-color: rgba(0,0,0,0.5); /*dim the background*/
+	padding: 0x;
+	transition-duration: 2s
+  }
+
+
+.flame {
+	width: 100%;
+	margin: 0px;
+	z-index: -5;
+	height: 100%;
+}
