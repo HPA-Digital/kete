@@ -43,7 +43,7 @@ function swapImages(e) {
 			clearInterval(interval);
 		}
 
-	}, 100);
+	}, 50);
 
 }
 
