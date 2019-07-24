@@ -72,7 +72,7 @@ window.onload = () => {
 		animation_container.appendChild(img);
 	})
 
-	document.querySelector("#submit-button > button[type='submit']").addEventListener("click", swapImages)
+	// document.querySelector("#submit-button > button[type='submit']").addEventListener("click", swapImages)
 }
 
 
