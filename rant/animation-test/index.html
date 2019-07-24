@@ -2,25 +2,71 @@
 
 <html>
 	<head>
-		<title>Rant Animation Test</title>
+		<title>Kuini - Rant</title>
 
 		<link rel="stylesheet" href="/styles.css"/>
 
-		<script type="text/javascript" src="/script.js"></script>
+		<script type="text/javascript" src="/script.js">
+		</script>
+
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Sree+Krushnadevaraya&display=swap" rel="stylesheet">
 
 	</head>
 
 	<body>
+
+		<!-- MESSENGER EXTENSIONS -->
+		<script>
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/messenger.Extensions.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'Messenger'));
+		</script>
 
 		<div id="animation-container">
 
 		</div>
 
 		<div id="content">
+
+			<div id="title-container">
+				<div id="avatar-container">
+
+				</div>
+
+				<div id="description-container">
+					<h1>Rants</h1>
+					<p>
+					This is your top-secret space to rant, vent and offload and clear your whakaaro (thoughts).
+					</p>
+				</div>
+
+			</div>
+
 			<form id="input-form">
-				<textarea id="rant" placeholder="Rant here...." autofocus type="text"></textarea>
-				<button type="submit">Done</button>
+				<textarea id="rant" placeholder="Kōrero mai, type anything!..." autofocus type="text"></textarea>
 			</form>
+
+			<div id="footer-container">
+
+				<div id=submit-button>
+					<button type="submit">Done</button>
+				</div>
+
+				<div id="footer-description">
+					<p>
+						Click when finished to permanently delete.
+					</p>
+					<p>
+						If you want to save, copy and paste your 'rants' elsewhere
+					</p>
+				</div>
+
+			</div>
 		</div>
 
 	</body>

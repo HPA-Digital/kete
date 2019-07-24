@@ -10,19 +10,15 @@ function preloadImg(imgArray) {
 		images[i].src = imgArray[i];
 		images[i].id = "animation-image"
 	})
-
 	return images;
 }
 
 
 function generateArray(root) {
-
 	images = [];
-
 	for (let i = 1; i < 21; i++) {
 		images[i - 1] = root + "Capture_" + i + ".JPG"
 	}
-
 	return images;
 }
 
@@ -30,12 +26,12 @@ function swapImages(e) {
 	e.preventDefault();
 
 	var images = preloadImg(generateArray('/img/animation/'));
-	console.log(images);
 
 	var container = document.getElementById("animation-container");
+
 	container.appendChild(images[0])
 
-	document.getElementById("input-form").className += "fadeOut"
+	document.getElementById("content").className += "fadeOut"
 
 	var triggerCount = 0;
 
@@ -47,24 +43,35 @@ function swapImages(e) {
 
 		if (!element || triggerCount >= images.length) {
 			clearInterval(interval);
+
+			MessengerExtensions.requestCloseBrowser();
+
 		} else {
-
-			console.log(triggerCount, images[triggerCount]);
 			document.getElementById("animation-image").replaceWith(images[triggerCount]);
-
 		}
-
-
-
 	}, 100);
 }
 
+function getAvatarImage(){
+	var url = new URL(window.location.href);
+
+	var avatar = url.searchParams.get("avatar");
+
+	var avatar_image = new Image();
+	avatar_image.id = "avatar-image";
+	avatar_image.src = `/img/avatars/${avatar || "KUINI_AVATAR_1"}.jpg`;
+	return avatar_image;
+}
+
+var avatar_image = getAvatarImage();
 
 window.onload = () => {
 
-	// images.shift();
+	document.getElementById("avatar-container").appendChild(avatar_image);
 
-	document.querySelector("#input-form > button[type='submit']").addEventListener("click", swapImages)
-
-
+	document.querySelector("#submit-button > button[type='submit']").addEventListener("click", swapImages)
 }
+
+
+
+
