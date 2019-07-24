@@ -25,7 +25,7 @@ function generateArray(root) {
 function swapImages(e) {
 	e.preventDefault();
 
-	var images = preloadImg(generateArray('/img/animation/'));
+	var images = preloadImg(generateArray('./img/animation/'));
 
 	var container = document.getElementById("animation-container");
 
@@ -59,7 +59,7 @@ function getAvatarImage(){
 
 	var avatar_image = new Image();
 	avatar_image.id = "avatar-image";
-	avatar_image.src = `/img/avatars/${avatar || "KUINI_AVATAR_1"}.jpg`;
+	avatar_image.src = `./img/avatars/${avatar || "KUINI_AVATAR_1"}.jpg`;
 	return avatar_image;
 }
 
