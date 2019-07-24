@@ -24,27 +24,20 @@ function generateArray(root) {
 
 function swapImages(e) {
 	e.preventDefault();
+	console.log("A")
 
-	document.getElementById("content").className += "fadeOut"
+	document.getElementById("animation-container").classList.add("animate");
 
-	var noChildren = document.getElementById("animation-container").childNodes.length - 1;
+	// document.querySelectorAll("animation-container > img").forEach(img => {
+	// 	img.classList.add("animate");
+	// })
 
-	let count = 0;
+	setTimeout(() => {
+		document.getElementById("content").classList.add("fadeOut");
+	}, 1000)
 
-	let interval = setInterval(() => {
 
-		document.querySelector(`#animation-container > img:nth-child(${noChildren-count})`).style.display = 'none';
-
-		count++;
-
-		console.log(count);
-		//We stop on the last frame
-		if(count >= noChildren - 1){
-			clearInterval(interval);
-		}
-
-	}, 100);
-
+	console.log("B");
 }
 
 function getAvatarImage(){
@@ -67,12 +60,14 @@ window.onload = () => {
 
 	var animation_container = document.getElementById("animation-container");
 
-	images.reverse().forEach(img => {
+	images.reverse().forEach((img, i) => {
 		console.log(img);
+		img.style.animationDelay = `${(images.length-i)/5}s`;
+		img.style.zIndex = i-images.length;
 		animation_container.appendChild(img);
 	})
 
-	// document.querySelector("#submit-button > button[type='submit']").addEventListener("click", swapImages)
+	document.querySelector("#submit-button > button[type='submit']").addEventListener("click", swapImages)
 }
 
 
