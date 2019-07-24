@@ -25,31 +25,26 @@ function generateArray(root) {
 function swapImages(e) {
 	e.preventDefault();
 
-	var images = preloadImg(generateArray('./img/animation/'));
-
-	var container = document.getElementById("animation-container");
-
-	container.appendChild(images[0])
-
 	document.getElementById("content").className += "fadeOut"
 
-	var triggerCount = 0;
+	var noChildren = document.getElementById("animation-container").childNodes.length - 1;
 
-	var interval = setInterval(() => {
+	let count = 0;
 
-		let element = document.getElementById("animation-image")
+	let interval = setInterval(() => {
 
-		triggerCount++;
+		document.querySelector("#animation-container > img:last-child").remove();
 
-		if (!element || triggerCount >= images.length) {
+		count++;
+
+		console.log(count);
+		//We stop on the last frame
+		if(count >= noChildren - 1){
 			clearInterval(interval);
-
-			MessengerExtensions.requestCloseBrowser();
-
-		} else {
-			document.getElementById("animation-image").replaceWith(images[triggerCount]);
 		}
+
 	}, 100);
+
 }
 
 function getAvatarImage(){
@@ -64,10 +59,18 @@ function getAvatarImage(){
 }
 
 var avatar_image = getAvatarImage();
+var images = preloadImg(generateArray('./img/animation/'));;
 
 window.onload = () => {
 
 	document.getElementById("avatar-container").appendChild(avatar_image);
+
+	var animation_container = document.getElementById("animation-container");
+
+	images.reverse().forEach(img => {
+		console.log(img);
+		animation_container.appendChild(img);
+	})
 
 	document.querySelector("#submit-button > button[type='submit']").addEventListener("click", swapImages)
 }
