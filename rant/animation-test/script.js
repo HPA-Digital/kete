@@ -33,7 +33,7 @@ function swapImages(e) {
 
 	let interval = setInterval(() => {
 
-		document.querySelector("#animation-container > img:last-child").remove();
+		document.querySelector(`#animation-container > img:nth-child(${noChildren-count})`).style.display = 'none';
 
 		count++;
 
@@ -43,7 +43,7 @@ function swapImages(e) {
 			clearInterval(interval);
 		}
 
-	}, 50);
+	}, 100);
 
 }
 
