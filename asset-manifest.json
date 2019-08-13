@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Kete/static/css/main.061e7bd3.chunk.css",
+    "main.js": "/Kete/static/js/main.bd616808.chunk.js",
+    "main.js.map": "/Kete/static/js/main.bd616808.chunk.js.map",
+    "runtime~main.js": "/Kete/static/js/runtime~main.9a68e765.js",
+    "runtime~main.js.map": "/Kete/static/js/runtime~main.9a68e765.js.map",
+    "static/js/2.6e75c9e5.chunk.js": "/Kete/static/js/2.6e75c9e5.chunk.js",
+    "static/js/2.6e75c9e5.chunk.js.map": "/Kete/static/js/2.6e75c9e5.chunk.js.map",
+    "index.html": "/Kete/index.html",
+    "precache-manifest.3b7cb5d64820dbc0a784c8a08c799e93.js": "/Kete/precache-manifest.3b7cb5d64820dbc0a784c8a08c799e93.js",
+    "service-worker.js": "/Kete/service-worker.js",
+    "static/css/main.061e7bd3.chunk.css.map": "/Kete/static/css/main.061e7bd3.chunk.css.map",
+    "static/media/KUINI_1.jpg": "/Kete/static/media/KUINI_1.4ec9ba7f.jpg",
+    "static/media/KUINI_2.jpg": "/Kete/static/media/KUINI_2.09bf3fa1.jpg",
+    "static/media/KUINI_3.jpg": "/Kete/static/media/KUINI_3.20f05a77.jpg",
+    "static/media/KUINI_4.jpg": "/Kete/static/media/KUINI_4.86ba644d.jpg",
+    "static/media/KUINI_5.jpg": "/Kete/static/media/KUINI_5.3436bc8e.jpg",
+    "static/media/KUINI_6.jpg": "/Kete/static/media/KUINI_6.5cc6fadf.jpg",
+    "static/media/KUINI_K.png": "/Kete/static/media/KUINI_K.b1cc9121.png",
+    "static/media/fast-forward.svg": "/Kete/static/media/fast-forward.ff5b4c4e.svg",
+    "static/media/star.svg": "/Kete/static/media/star.a406bff1.svg"
+  }
+}
