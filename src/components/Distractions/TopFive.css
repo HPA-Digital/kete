@@ -14,18 +14,12 @@
 .TopFive-title {
 	flex:1;
 	text-align: left;
-	font-weight: 2em;
 	padding-left: 0.5em;
-	align-content: center;
-	justify-content: flex-start;
-	vertical-align: middle;
-}
-
-.TopFive-title > span {
+	padding-top: 0.25em;
 	display: inline-block;
 	vertical-align: middle;
-	line-height: normal;
-	font-weight: bold;
+	height:100%;
+	font-weight: bolder;
 }
 
 .TopFive-list {
@@ -38,8 +32,10 @@
 
 .TopFive-star {
 	height: 100%;
+
 }
 
 .TopFive-icon {
 	height: 2em;
+	display: inline-block;
 }

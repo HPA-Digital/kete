@@ -5,19 +5,19 @@ import './TopFive.css'
 import Star from '../../static/star.svg'
 
 class TopFive extends React.Component{
-	constructor(props){
-		super(props)
-	}
+	// constructor(props){
+	// 	super(props)
+	// }
 
 	render(){
 		return (
 			<div className="TopFive-container">
 				<div className="TopFive-header">
 					<div className="TopFive-title">
-						<span>Your Top Five</span>
+						YOUR TOP FIVE
 					</div>
 					<div className="TopFive-icon">
-						<img className="TopFive-star" src={Star}/>
+						<img className="TopFive-star" src={Star} alt="Star"/>
 					</div>
 				</div>
 

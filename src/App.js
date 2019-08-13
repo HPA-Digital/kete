@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import { Helmet } from 'react-helmet';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Distractions from './components/Distractions';
 import Rant from './components/Rant';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
 		<Helmet title="Test">
-
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans|Sree+Krushnadevaraya&display=swap" rel="stylesheet" />
 		</Helmet>
 		<Router>
 			<Route path="/rant" component={Rant} />

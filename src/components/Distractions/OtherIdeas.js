@@ -4,6 +4,8 @@ import './OtherIdeas.css'
 
 import _ from 'lodash';
 
+import fastForward from '../../static/fast-forward.svg'
+
 class OtherIdeas extends React.Component {
 
 	constructor(props){
@@ -12,12 +14,37 @@ class OtherIdeas extends React.Component {
 		this.state = {
 			length: 5
 		}
+
+		this.increaseLength = this.increaseLength.bind(this);
+		this.renderFooter = this.renderFooter.bind(this);
 	}
 
-	increaseLength(n){
+	increaseLength(){
 		this.setState({
-			length: this.state.length + n
+			length: this.state.length + 5
 		})
+	}
+
+	renderFooter(){
+		if(this.state.length >= this.props.data.length){
+			return (
+				<div className="OtherIdeas-footer-end">
+					End of List
+				</div>
+			)
+		}
+		else {
+			return (
+				<button className="OtherIdeas-more" onClick={this.increaseLength}>
+					<img src={fastForward} className="OtherIdeas-more-icon" alt="More">
+					</img>
+					<div className="OtherIdeas-more-text">
+						More...
+					</div>
+
+				</button>
+			)
+		}
 	}
 
 	render(){
@@ -37,9 +64,7 @@ class OtherIdeas extends React.Component {
 				</div>
 
 				<div className="OtherIdeas-footer">
-					<button className="OtherIdeas-more">
-						More...
-					</button>
+					{this.renderFooter()}
 				</div>
 
 			</div>

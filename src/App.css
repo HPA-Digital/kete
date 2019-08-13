@@ -1,10 +1,14 @@
 .App {
   text-align: center;
   font-size: 16px;
+
+  /* font-family: 'Sree Krushnadevaraya', serif; */
+	font-family: 'Open Sans', sans-serif;
 }
 
 
 .App-header {
+
   font-size: calc(10px + 2vmin);
   color: white;
 }

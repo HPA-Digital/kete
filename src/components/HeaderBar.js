@@ -48,9 +48,9 @@ class HeaderBar extends React.Component {
 		return (
 			<header className="Header">
 				<div className="Header-top-bar">
-					<strong>
+
 						{this.props.title}
-					</strong>
+
 				</div>
 				<div className="Header-img" style={{
 					backgroundImage: `url(${this.getAvatar(this.props.avatar)})`

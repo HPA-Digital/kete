@@ -1,17 +1,21 @@
 .Header {
-	font-size: 1.2em;
+	font-size: 1.7em;
+	font-weight: 200;
 	color: white;
+	font-family: 'Sree Krushnadevaraya', serif;
+
+	/* margin-right: 1em; */
   }
 
 .Header-top-bar{
 	background-color: #282c34;
-	height: 4em;
+	height: 2.5em;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-
-	padding-left: 2em;
+	text-align: left;
+	padding-left: 4em;
 }
 
 
@@ -20,11 +24,11 @@
 	display: flex;
 	flex: 1;
 	left: 20px;
-	top: 2em;
+	top: 0.8em;
 	flex: 1;
 	border-radius: 100%;
-	width: 3.5em;
-	height: 3.5em;
+	width: 3em;
+	height: 3em;
 
 	background-size: cover;
 	background-position: center;
