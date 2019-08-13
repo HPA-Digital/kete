@@ -23,9 +23,9 @@ class TopFive extends React.Component{
 
 				<div className="TopFive-list">
 					<ul>
-						{this.props.data.map((item) => {
+						{this.props.data.map((item, i) => {
 							return (
-								<li>
+								<li key={i}>
 									{item}
 								</li>
 							)

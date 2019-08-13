@@ -26,9 +26,9 @@ class OtherIdeas extends React.Component {
 
 				<div className="OtherIdeas-list">
 					<ul>
-						{_.slice(this.props.data, 0, this.state.length).map(item => {
+						{_.slice(this.props.data, 0, this.state.length).map((item, i) => {
 						return (
-							<li>
+							<li key={i}>
 								{item}
 							</li>
 						)
