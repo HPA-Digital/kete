@@ -1,3 +1,10 @@
+.Container{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 .Container-body{
 	padding-top: 3em;
+	flex: 1;
+	display: flex;
 }

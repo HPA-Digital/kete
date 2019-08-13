@@ -6,6 +6,8 @@ import _ from 'lodash';
 
 import fastForward from '../../static/fast-forward.svg'
 
+import KuiniButton from '../KuiniButton';
+
 class OtherIdeas extends React.Component {
 
 	constructor(props){
@@ -35,14 +37,7 @@ class OtherIdeas extends React.Component {
 		}
 		else {
 			return (
-				<button className="OtherIdeas-more" onClick={this.increaseLength}>
-					<img src={fastForward} className="OtherIdeas-more-icon" alt="More">
-					</img>
-					<div className="OtherIdeas-more-text">
-						More...
-					</div>
-
-				</button>
+				<KuiniButton title="More..." image={fastForward} action={this.increaseLength}/>
 			)
 		}
 	}

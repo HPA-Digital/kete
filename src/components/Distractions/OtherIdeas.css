@@ -2,27 +2,6 @@
 	text-align: left;
 }
 
-.OtherIdeas-more {
-	background-color: #fdf49b;
-	border-style: none;
-	padding: 0.2em 1em;
-	border-radius: 2em;
-	font-size: 1.2em;
-	display: inline-block;
-}
-.OtherIdeas-more-text {
-	display: inline-block;
-	vertical-align: middle;
-	padding-left: 0.5em;
-
-}
-
-.OtherIdeas-more-icon{
-	height: 3em;
-	display: inline-block;
-	vertical-align: middle;
-}
-
 .OtherIdeas-footer {
 	padding: 0px 0px 1em 1.5em;
 	display: flex;

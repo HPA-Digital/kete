@@ -1,0 +1,19 @@
+.KuiniButton {
+	background-color: #fdf49b;
+	border-style: none;
+	padding: 0.2em 1em;
+	border-radius: 2em;
+	font-size: 1.2em;
+	display: inline-block;
+}
+.KuiniButton-text {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 0.5em;
+}
+
+.KuiniButton-icon{
+	height: 3em;
+	display: inline-block;
+	vertical-align: middle;
+}

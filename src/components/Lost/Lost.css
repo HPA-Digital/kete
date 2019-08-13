@@ -1,0 +1,8 @@
+.Lost {
+	display: flex;
+	flex-direction: column;
+}
+
+.Lost > div {
+	flex: 1;
+}

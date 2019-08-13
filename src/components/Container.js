@@ -25,7 +25,7 @@ class Container extends React.Component {
 			case 'rant':
 				return 'Rant';
 			default:
-				return 'Unknown';
+				return 'Are you lost?';
 		}
 	}
 
@@ -40,7 +40,7 @@ class Container extends React.Component {
 		console.log("Container Props:", this.props);
 
 		return (
-			<div>
+			<div className="Container">
 				<Helmet title={this.props.title || "Unknown"}/>
 				<HeaderBar title={this.props.title || "Unknown"} avatar={this.getAvatar(this.props.location)}/>
 				<div className="Container-body">

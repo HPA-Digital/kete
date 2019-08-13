@@ -1,0 +1,50 @@
+.Rant {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.Rant-title {
+	display: flex;
+	flex-direction: row;
+	padding: 0em 1em 1em 1em;
+}
+
+.Rant-description{
+	flex: 1;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.Rant-description-image{
+	display: inline-block;
+}
+
+.Rant-input-container {
+	display: flex;
+	background-color: pink;
+	padding: 1em;
+	flex: 1
+}
+
+.Rant-input{
+	width: 100%;
+	border-style: none;
+	border-radius: 15px;
+	padding: 0.2em;
+	word-break: break-word;
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 1.5em;
+}
+
+.Rant-footer {
+	display: flex;
+	text-align: left;
+	padding: 1em;
+	flex-direction: column;
+}
+
+.Rant-footer-text {
+	padding: 0.5em;
+}
