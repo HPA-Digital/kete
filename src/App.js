@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import { Helmet } from 'react-helmet';
@@ -16,7 +15,7 @@ function App() {
 		</Helmet>
 		<Router>
 			<Route path="/rant" component={Rant} />
-			<Route path="/things" component={Distractions} />
+			<Route path="/distraction" component={Distractions} />
 		</Router>
     </div>
   );
