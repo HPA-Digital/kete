@@ -1,0 +1,33 @@
+.Header {
+	font-size: 1.2em;
+	color: white;
+  }
+
+.Header-top-bar{
+	background-color: #282c34;
+	height: 4em;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+
+	padding-left: 2em;
+}
+
+
+.Header-img{
+	position: absolute;
+	display: flex;
+	flex: 1;
+	left: 20px;
+	top: 2em;
+	flex: 1;
+	border-radius: 100%;
+	width: 3.5em;
+	height: 3.5em;
+
+	background-size: cover;
+	background-position: center;
+	background-clip: border-box;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,17 @@
+.OtherIdeas-list {
+	text-align: left;
+}
+
+.OtherIdeas-more {
+	background-color: #fdf49b;
+	border-style: none;
+	padding: 1em;
+	border-radius: 1em;
+	font-size: 1.2em;
+}
+
+.OtherIdeas-footer {
+	padding: 0px 0px 1em 1.5em;
+	display: flex;
+
+}

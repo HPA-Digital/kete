@@ -1,0 +1,45 @@
+.TopFive-container {
+	background-color: #f2c5dc;
+	border-radius: 1em;
+	/* /* margin: 2em; */
+	padding: 1em;
+}
+
+.TopFive-header {
+	font-size: 1.4em;
+	display: flex;
+	margin-bottom: 0.5em;
+}
+
+.TopFive-title {
+	flex:1;
+	text-align: left;
+	font-weight: 2em;
+	padding-left: 0.5em;
+	align-content: center;
+	justify-content: flex-start;
+	vertical-align: middle;
+}
+
+.TopFive-title > span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	font-weight: bold;
+}
+
+.TopFive-list {
+	background-color: white;
+	border-radius: inherit;
+	padding: 1em;
+	text-align: left;
+	padding-left: 0px;
+}
+
+.TopFive-star {
+	height: 100%;
+}
+
+.TopFive-icon {
+	height: 2em;
+}
