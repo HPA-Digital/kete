@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import { Helmet } from 'react-helmet';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Distractions from './components/Distractions';
 import Rant from './components/Rant';
@@ -18,9 +18,8 @@ function App() {
 			<Switch>
 				<Route path="/rant" component={Rant} />
 				<Route path="/distractions" component={Distractions} />
-				<Route component={Lost}/>
+				<Route path="*" component={Lost}/>
 			</Switch>
-
 		</Router>
     </div>
   );
