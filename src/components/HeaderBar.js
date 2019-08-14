@@ -25,9 +25,6 @@ class HeaderBar extends React.Component {
 
 
 	render(){
-
-		let imageURL = this.getAvatar(this.props.avatar);
-
 		return (
 			<header className="Header">
 				<div className="Header-top-bar">

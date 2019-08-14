@@ -36,9 +36,6 @@ class Container extends React.Component {
 	}
 
 	render() {
-
-		console.log("Container Props:", this.props);
-
 		return (
 			<div className="Container">
 				<Helmet title={this.props.title || "Unknown"}/>

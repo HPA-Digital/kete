@@ -28,7 +28,7 @@ class Rant extends React.Component {
 
 	closeWindow(){
 		window.MessengerExtensions.requestCloseBrowser((success) => {
-			console.log("Yay")
+
 		}, (err) => {
 			console.error(err);
 			this.setState({
