@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kete/static/css/main.621883d2.chunk.css",
+    "main.css": "/kete/static/css/main.516abdba.chunk.css",
     "main.js": "/kete/static/js/main.372e69bb.chunk.js",
     "main.js.map": "/kete/static/js/main.372e69bb.chunk.js.map",
     "runtime~main.js": "/kete/static/js/runtime~main.2a2ea9e1.js",
@@ -8,9 +8,9 @@
     "static/js/2.7fd56cdc.chunk.js": "/kete/static/js/2.7fd56cdc.chunk.js",
     "static/js/2.7fd56cdc.chunk.js.map": "/kete/static/js/2.7fd56cdc.chunk.js.map",
     "index.html": "/kete/index.html",
-    "precache-manifest.5ccde9893433b24a5698dbc95904dc42.js": "/kete/precache-manifest.5ccde9893433b24a5698dbc95904dc42.js",
+    "precache-manifest.478ef4a0c18b94e6ca357ef8a443982e.js": "/kete/precache-manifest.478ef4a0c18b94e6ca357ef8a443982e.js",
     "service-worker.js": "/kete/service-worker.js",
-    "static/css/main.621883d2.chunk.css.map": "/kete/static/css/main.621883d2.chunk.css.map",
+    "static/css/main.516abdba.chunk.css.map": "/kete/static/css/main.516abdba.chunk.css.map",
     "static/media/KUINI_1.jpg": "/kete/static/media/KUINI_1.4ec9ba7f.jpg",
     "static/media/KUINI_2.jpg": "/kete/static/media/KUINI_2.09bf3fa1.jpg",
     "static/media/KUINI_3.jpg": "/kete/static/media/KUINI_3.20f05a77.jpg",
