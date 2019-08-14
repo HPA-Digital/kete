@@ -18,6 +18,12 @@
 	padding-left: 4em;
 }
 
+@media only screen and (max-width: 400px) {
+	.Header{
+		font-size: 1.4em;
+	}
+}
+
 
 .Header-img{
 	position: absolute;
