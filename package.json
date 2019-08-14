@@ -1,5 +1,5 @@
 {
-  "name": "rant",
+  "name": "Kete",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://hpa-digital.github.io/Kete",
+  "homepage": "https://hpa-digital.github.io/kete/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
