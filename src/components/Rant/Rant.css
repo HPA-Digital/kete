@@ -25,7 +25,8 @@
 	display: flex;
 	background-color: pink;
 	padding: 1em;
-	flex: 1
+	flex: 1;
+	min-height: 50%;
 }
 
 .Rant-input{
