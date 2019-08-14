@@ -22,8 +22,7 @@ class Distractions extends React.Component {
 
 		return {
 			top: _.slice(data, 0, 5),
-			data,
-			length: 5
+			data: _.slice(data, 5),
 		}
 
 	}
