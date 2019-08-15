@@ -53,18 +53,16 @@ class Rant extends React.Component {
 					</section>
 
 					<section className="Rant-input-container">
-						<textarea className="Rant-input" value={this.state.rant} onChange={this.handleChange} type="text" placeholder="Click “Done” when finished to permanently delete. If you want to save, copy and paste your ‘rants’ elsewhere.">
+						<textarea className="Rant-input" value={this.state.rant} onChange={this.handleChange} type="text" placeholder="Write here...">
 						</textarea>
 					</section>
 
 					<section className="Rant-footer">
 						<div>
-							<KuiniButton title="Done..." image={Notebook} action={this.closeWindow}/>
+							<KuiniButton title="Delete..." image={Notebook} action={this.closeWindow}/>
 						</div>
 						<div className="Rant-footer-text">
-							Click “Done” when finished to permanently
-							delete. If you want to save, copy and paste
-							your ‘rants’ elsewhere.
+							Tip: If you want to save this, copy and paste your ‘rants’ elsewhere.
 						</div>
 					</section>
 				</div>
