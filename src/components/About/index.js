@@ -14,8 +14,8 @@ class About extends React.Component {
 						About Kuīni
 					</h2>
 					<p>
-					Kia ora. I’m Kuīni 👑 and I’m here to help you quit smoking. I’m a chatbot – sorta a robot kaiāwhina – being created now with wāhine Māori for wāhine queens 👸🏽 like you.
-					I’m here 24/7 for you. I’ve got daily check ins (to keep you on track Sis!) and a kete 👜 full of hacks, distractions and cool stuff to keep your mind, and your hands, busy over 30 days.
+					Kia ora. I’m Kuīni <span role="img" aria-label="Crown">👑</span> and I’m here to help you quit smoking. I’m a chatbot – sorta a robot kaiāwhina – being created now with wāhine Māori for wāhine queens <span role="img" aria-label="Doctor">👸🏽</span> like you.
+					I’m here 24/7 for you. I’ve got daily check ins (to keep you on track Sis!) and a kete <span role="img" aria-label="Bag">👜</span> full of hacks, distractions and cool stuff to keep your mind, and your hands, busy over 30 days.
 					I’m working with a team of quit experts and clinicians who were brought together by Te Hiringa Hauora / Health Promotion Agency. If you want to kōrero with a *real* person you can get in touch at <a href="www.facebook.com/Kuinicanhelp" target="_blank"> www.facebook.com/Kuinicanhelp</a> or via ‘help’ in our Messenger app. Ka rawe hoki!
 					</p>
 
