@@ -7,6 +7,8 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import Distractions from './components/Distractions';
 import Rant from './components/Rant';
 import Lost from './components/Lost';
+import About from './components/About';
+import Privacy from './components/Privacy';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
 			<Switch>
 				<Route path="/rant" component={Rant} />
 				<Route path="/distractions" component={Distractions} />
+				<Route path="/about" component={About} />
+				<Route path="/privacy" component={Privacy} />
 				<Route path="*" component={Lost}/>
 			</Switch>
 		</Router>
