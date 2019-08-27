@@ -3,6 +3,7 @@ import React from 'react';
 import './TopFive.css'
 
 import Star from '../../static/star.svg'
+import StarIcon from './star-icon.gif';
 
 class TopFive extends React.Component{
 	// constructor(props){
@@ -26,7 +27,13 @@ class TopFive extends React.Component{
 						{this.props.data.map((item, i) => {
 							return (
 								<li key={i}>
-									{item}
+									{/* <div className="TopFive-list-icon" style={{
+										backgroundImage: `url(${StarIcon})`
+									}}></div> */}
+									<div className="TopFive-list-text">
+										{item}
+									</div>
+
 								</li>
 							)
 						})}
