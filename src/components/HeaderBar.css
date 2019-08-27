@@ -16,6 +16,7 @@
 	justify-content: center;
 	text-align: left;
 	padding-left: 4em;
+	line-height: normal;
 }
 
 @media only screen and (max-width: 400px) {
