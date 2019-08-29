@@ -30,7 +30,7 @@ class Distractions extends React.Component {
 	render(){
 
 		return (
-			<Container title="101+ Things to Do..." {...this.props}>
+			<Container title="101+ Things to do..." {...this.props}>
 				<div className="Things-container">
 					<div className="Things-header">
 						Get out and about or try something

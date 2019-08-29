@@ -40,7 +40,7 @@ class Rant extends React.Component {
 	render(){
 		return (
 			<Container title="Rant..." {...this.props}>
-				<Helmet title="Kete | Rant"/>
+				<Helmet title="Rant"/>
 
 				<div className="Rant">
 					<section className="Rant-title">
