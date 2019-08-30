@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kete/static/css/main.3abbc686.chunk.css",
-    "main.js": "/kete/static/js/main.dcbc320a.chunk.js",
-    "main.js.map": "/kete/static/js/main.dcbc320a.chunk.js.map",
+    "main.js": "/kete/static/js/main.3f6b8aba.chunk.js",
+    "main.js.map": "/kete/static/js/main.3f6b8aba.chunk.js.map",
     "runtime~main.js": "/kete/static/js/runtime~main.2a2ea9e1.js",
     "runtime~main.js.map": "/kete/static/js/runtime~main.2a2ea9e1.js.map",
     "static/js/2.2b203637.chunk.js": "/kete/static/js/2.2b203637.chunk.js",
     "static/js/2.2b203637.chunk.js.map": "/kete/static/js/2.2b203637.chunk.js.map",
     "index.html": "/kete/index.html",
-    "precache-manifest.1db5ff29ac689e4734dfbd2a4a4bbda1.js": "/kete/precache-manifest.1db5ff29ac689e4734dfbd2a4a4bbda1.js",
+    "precache-manifest.e70f5a3dd7a43190a20a89124b85ea7d.js": "/kete/precache-manifest.e70f5a3dd7a43190a20a89124b85ea7d.js",
     "service-worker.js": "/kete/service-worker.js",
     "static/css/main.3abbc686.chunk.css.map": "/kete/static/css/main.3abbc686.chunk.css.map",
     "static/media/KUINI_1.jpg": "/kete/static/media/KUINI_1.4ec9ba7f.jpg",
