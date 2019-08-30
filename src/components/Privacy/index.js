@@ -6,6 +6,13 @@ import Container from '../Container';
 
 
 class Privacy extends React.Component {
+
+	highlightPrivacy(){
+		document.getElementById("privacy").scrollIntoView({
+			behavior: "smooth"
+		});
+	}
+
 	render(){
 		return(
 			<Container title="Terms & Privacy" {...this.props}>
@@ -22,7 +29,7 @@ class Privacy extends React.Component {
 							<p>Kuīni Bot has been developed for people who want to quit smoking, by providing general information to support them in that goal. Any information provided to you, or that you access through your use of Kuīni Bot, is not professional medical or health advice, diagnosis, or treatment, and is not a substitute for such advice, diagnosis, or treatment. </p>
 							<p>The information that you provide when chatting with Kuīni Bot will not be monitored or verified by any health professionals. We do not warrant the accuracy, completeness, or usefulness of any information provided to you through your use of Kuīni Bot to help you quit smoking. </p>
 							<p>We recommend that you contact your doctor or other health professional if you have any questions, or would like medical or health advice, about quitting smoking, or if you have any concerns about your smoking or your health more generally. </p>
-							<h3>Your information and our privacy policy</h3> You can read about how we handle your information in our Privacy Policy [<a href="#privacy">here</a>].
+							<h3>Your information and our privacy policy</h3> You can read about how we handle your information in our Privacy Policy [<a href="#privacy" onClick={this.highlightPrivacy}>here</a>].
 							<h3>Licence</h3>
 							<p>We grant you a non-transferable, non-exclusive licence to use Kuīni Bot, subject to these Terms.</p>
 							<p>You must not:
@@ -51,11 +58,8 @@ class Privacy extends React.Component {
 							<p>Kuīni Bot may contain links to third party websites and content. We do not endorse such third party products, services or websites and have no liability in respect of your dealings with third parties.</p>
 							<h3>Suspension and termination</h3> We may restrict or block your access to and use of Kuīni Bot at any time on a temporary or permanent basis if we reasonably believe that you may have breached any of these Terms.
 							<h3>New Zealand law</h3> These Terms are governed by New Zealand law and the parties irrevocably submit to the exclusive jurisdiction of the New Zealand courts.
-
-						{/*
-						<p><a href="#table">Back to Top</a></p> */}
 					</div>
-					<div>
+					<div id="privacy">
 
 							<h1>Privacy Policy</h1>
 							<p>For you to get the most out of using Kuīni Bot, the Health Promotion Agency ("<strong>we</strong>" or "<strong>us</strong>") needs to collect some personal information about you. We will protect your personal information, and will only collect, use, store, and share it in accordance with the Privacy Act 1993.</p>
