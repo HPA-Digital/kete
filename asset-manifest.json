@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/kete/static/css/main.3abbc686.chunk.css",
-    "main.js": "/kete/static/js/main.32584efd.chunk.js",
-    "main.js.map": "/kete/static/js/main.32584efd.chunk.js.map",
-    "runtime~main.js": "/kete/static/js/runtime~main.2a2ea9e1.js",
-    "runtime~main.js.map": "/kete/static/js/runtime~main.2a2ea9e1.js.map",
-    "static/js/2.2b203637.chunk.js": "/kete/static/js/2.2b203637.chunk.js",
-    "static/js/2.2b203637.chunk.js.map": "/kete/static/js/2.2b203637.chunk.js.map",
+    "main.css": "/kete/static/css/main.76ab6049.chunk.css",
+    "main.js": "/kete/static/js/main.2fdcd5f2.chunk.js",
+    "main.js.map": "/kete/static/js/main.2fdcd5f2.chunk.js.map",
+    "runtime-main.js": "/kete/static/js/runtime-main.6f35643e.js",
+    "runtime-main.js.map": "/kete/static/js/runtime-main.6f35643e.js.map",
+    "static/js/2.01f716b9.chunk.js": "/kete/static/js/2.01f716b9.chunk.js",
+    "static/js/2.01f716b9.chunk.js.map": "/kete/static/js/2.01f716b9.chunk.js.map",
     "index.html": "/kete/index.html",
-    "precache-manifest.b6399aceb926a4d7546293551c6b91ef.js": "/kete/precache-manifest.b6399aceb926a4d7546293551c6b91ef.js",
-    "service-worker.js": "/kete/service-worker.js",
-    "static/css/main.3abbc686.chunk.css.map": "/kete/static/css/main.3abbc686.chunk.css.map",
-    "static/media/KUINI_1.jpg": "/kete/static/media/KUINI_1.4ec9ba7f.jpg",
-    "static/media/KUINI_2.jpg": "/kete/static/media/KUINI_2.09bf3fa1.jpg",
-    "static/media/KUINI_3.jpg": "/kete/static/media/KUINI_3.20f05a77.jpg",
-    "static/media/KUINI_4.jpg": "/kete/static/media/KUINI_4.86ba644d.jpg",
-    "static/media/KUINI_5.jpg": "/kete/static/media/KUINI_5.3436bc8e.jpg",
-    "static/media/KUINI_6.jpg": "/kete/static/media/KUINI_6.5cc6fadf.jpg",
-    "static/media/KUINI_K.png": "/kete/static/media/KUINI_K.b1cc9121.png",
-    "static/media/fast-forward.svg": "/kete/static/media/fast-forward.ff5b4c4e.svg",
-    "static/media/notebook.svg": "/kete/static/media/notebook.edce17b3.svg",
-    "static/media/star.svg": "/kete/static/media/star.a406bff1.svg"
-  }
+    "static/css/main.76ab6049.chunk.css.map": "/kete/static/css/main.76ab6049.chunk.css.map",
+    "static/js/2.01f716b9.chunk.js.LICENSE.txt": "/kete/static/js/2.01f716b9.chunk.js.LICENSE.txt",
+    "static/media/KUINI_1.jpg": "/kete/static/media/KUINI_1.755ed464.jpg",
+    "static/media/KUINI_2.jpg": "/kete/static/media/KUINI_2.7b8e5a03.jpg",
+    "static/media/KUINI_3.jpg": "/kete/static/media/KUINI_3.11b24074.jpg",
+    "static/media/KUINI_4.jpg": "/kete/static/media/KUINI_4.c31b1753.jpg",
+    "static/media/KUINI_5.jpg": "/kete/static/media/KUINI_5.037f0c27.jpg",
+    "static/media/KUINI_6.jpg": "/kete/static/media/KUINI_6.a7c9c3c9.jpg",
+    "static/media/KUINI_K.png": "/kete/static/media/KUINI_K.c3026207.png",
+    "static/media/fast-forward.1670ed94.svg": "/kete/static/media/fast-forward.1670ed94.svg",
+    "static/media/notebook.9c628be5.svg": "/kete/static/media/notebook.9c628be5.svg",
+    "static/media/star.06dd5e7b.svg": "/kete/static/media/star.06dd5e7b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f35643e.js",
+    "static/js/2.01f716b9.chunk.js",
+    "static/css/main.76ab6049.chunk.css",
+    "static/js/main.2fdcd5f2.chunk.js"
+  ]
 }
