@@ -9,20 +9,6 @@ class HeaderBar extends React.Component {
 		this.getAvatar = this.getAvatar.bind(this);
 	}
 
-	getAvatar(avatar){
-
-		const regex = /^KUINI_[1-6]$/g
-
-		//Default
-		let image = 'KUINI_K.png';
-
-		if(regex.test(avatar)){
-			image =  `${avatar}.jpg`
-		}
-
-		return require(`../static/avatars/${image}`)
-	}
-
 
 	render(){
 		return (
